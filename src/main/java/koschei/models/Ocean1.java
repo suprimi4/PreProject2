@@ -6,13 +6,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class Ocean1 {
 
-
-    private final Island2 island;
-
     @Autowired
-    public Ocean1(Island2 island) {
-        this.island = island;
-    }
+    private  Island2 island;
+
+
 
     @Override
     public String toString() {
